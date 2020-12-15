@@ -1,0 +1,83 @@
+.message{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.content{
+    overflow-y: scroll;
+    height: calc(100% - 105px);
+    position: relative;
+}
+.input{
+    border-top: 1px solid rgba(179, 179, 179, 0.575);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+}
+.input input{
+    flex-grow: 1;
+    margin: 10px 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(0 0 0 / 15%);
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+}
+.chat-header-bar{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 1px solid rgba(179, 179, 179, 0.575);
+    
+}
+#video-call{
+    position: fixed;
+    top: calc(50vh - 230px);
+    left: calc(50vw - 400px);
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+    height: 460px;
+    width: 800px;
+    border-radius: 10px;
+    border: 3px #bbbbbb solid;
+}
+#video-callheader {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+#video-callheader .info{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+}
+#video-callheader .action {
+    margin-right: 10px;
+}
+#video-callheader .action button{
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 0px 5px;
+}
+.video-call-name{
+    margin-left: 10px;
+    font-weight: bold;
+    color: #5f18af;
+}

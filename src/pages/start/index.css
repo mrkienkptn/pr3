@@ -1,0 +1,56 @@
+.container-start {
+    /* background-image: url('../../public/Untitled.svg'); */
+    object-fit: contain;
+    background-repeat: no-repeat;
+    /* background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: linear-gradient(-135deg, #c850c0, #4158d0); */
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+
+.content-auth {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-top: 90px;
+}
+
+.content-auth hr {
+    border-top: 1px solid #eee;
+}
+
+.title h1 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+.auth-content {
+    padding: 10px;
+    font-size: large;
+}
+
+.auth-title {
+    margin-right: 40px;
+}
+
+.btn-login-signup {
+    position: absolute;
+    top:30%;
+    left: 50px;
+    padding: 20px;
+    z-index: 999;
+}
+
+.btn-login-signup .btn {
+    padding: 10px 40px;
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    margin: 0px 5px;
+}

@@ -1,0 +1,99 @@
+.container-home{
+    position: relative;
+}
+.tabBar{
+    position: absolute;
+    top: 0px;
+    left: 162px;
+    width: calc(100vw - 162px);
+
+    border:  2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    background-color: #f8f8ff;
+}
+.chat-list{
+    /* height: calc(100vh - 70px); */
+    position: relative;
+    border-right: #f8f8ff 5px solid;
+}
+.search-people{
+    flex-grow: 1;
+    background-color: ghostwhite;
+    height: 100%;
+
+}
+.notify-icon{
+    margin: 0 20px;
+}
+
+.userName{
+    margin: 0 20px;
+}
+.friends{
+    height: calc(100vh - 70px);
+    overflow-y: scroll;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+  
+    border-radius: 2.5px;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #6303b1; 
+    border-radius: 2.5px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #823fff; 
+}
+.search-message{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(0 0 0 / 15%);
+}
+.search-message input{
+    flex-grow: 1;
+    background-color: #dadada;
+}
+.conversation{
+
+    position: absolute;
+    top: 0px;
+    left: 305px;
+    padding: 0px 15px;
+    height: calc(100vh - 30px);
+    width: calc(100vw - 475px);
+    min-width: 700px;
+}
+
+.search-user{
+    height: calc(100vh - 70px);
+    overflow-y: scroll;
+    width: calc(100vw - 160px);
+
+}
+
+.read-more-notifications, .mark-notifications, .icon-notification, .icon-person {
+    cursor: pointer;
+}
+
+.find-user {
+    width: -webkit-fill-available !important;
+}

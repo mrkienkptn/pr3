@@ -1,0 +1,54 @@
+.msg-box{
+    width: 100%;
+
+    position: relative;
+}
+.msg-left{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 5px;
+    border-radius: 20px;
+}
+.msg-left .text-content{
+    
+    color: black;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;    
+}
+.msg-left .text-content p{
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(218, 218, 218);
+    border-top-left-radius: 2px;
+    font-size: 16px;
+}
+
+.msg-right{    
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+    border-radius: 20px;
+    
+}
+.msg-right .text-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    padding: 5px;
+    
+}
+.msg-right .text-content p{
+    background: radial-gradient(circle, rgba(49, 207, 60, 0.808), #50e3c2);
+    color: aliceblue;
+    border-radius: 20px;
+    border-bottom-right-radius: 2px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+
